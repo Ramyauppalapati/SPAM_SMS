@@ -3,6 +3,7 @@
 An end-to-end SMS spam classification project using NLP and machine learning, with an interactive Streamlit web application.
 
 ## 🚀 Live deployment
+https://spamsmsdetectionwebsite.streamlit.app/
 
 This repository is designed to deploy directly to **Streamlit Community Cloud** from GitHub.
 
