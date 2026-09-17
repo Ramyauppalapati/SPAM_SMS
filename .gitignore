@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+
+# Local dataset; Streamlit can download it automatically if absent.
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated evaluation artifacts.
+reports/metrics.csv
+reports/classification_report.txt
+reports/figures/*.png
+
+# The trained model can be committed for faster startup if desired.
+# It is intentionally NOT ignored.
